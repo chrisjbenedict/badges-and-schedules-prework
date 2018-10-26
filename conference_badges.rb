@@ -10,3 +10,11 @@ def batch_badge_creator(arr)
   end
   return batch_badge_arr
 end
+
+def assign_rooms(arr)
+  room_number = 1
+  arr.each do |name|
+    return "Hello, #{name}! You'll be assigned to room #{room_number}!"
+    room_number += 1
+  end
+end
