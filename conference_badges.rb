@@ -25,4 +25,4 @@ def printer(attendees)
 
 end
 
-assign_rooms
+puts rooms_arr
